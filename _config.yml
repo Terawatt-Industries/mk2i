@@ -20,9 +20,9 @@ githubiverse:
         branch: master
 
     ## The names of directories where any images, source and stl files associated with the project can be found.
-    img_dir:
-    stl_dir:
-    src_dir:
+    img_dir: img
+    # stl_dir: dist
+    src_dir: src
 
     ## The headline image
     lead_image: mk2i_all_btm.png
@@ -32,7 +32,7 @@ githubiverse:
     description_file: README.md
 
     ## Preview the first STL in the list when the page loads.
-    autoload_stl: true
+    autoload_stl: false
 
     ## Show a github "fork me" ribbon in the top righthand corner of the page.
     show_forkme_ribbon: true
