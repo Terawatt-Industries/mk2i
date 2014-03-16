@@ -9,7 +9,7 @@ githubiverse:
     ## Metadata
     title: "MK2i Heated Build Platform (PCB Heatbed)"
     author: Terawatt Industries
-    license: GPLv2 from ancestors.
+    license: GPLv2
     tags: [3d printer,heatbed,pcb heated,heated build platform,heated bed,pcb heated,pcb build platform]
 
     ## Github project parameters.
@@ -21,7 +21,7 @@ githubiverse:
 
     ## The names of directories where any images, source and stl files associated with the project can be found.
     img_dir: img
-    stl_dir: stl
+    stl_dir:
     src_dir: src
 
     ## The headline image
