@@ -7,7 +7,7 @@
 ## Uses distinct namespace. Jekyll settings should go at the root level.
 githubiverse:
     ## Metadata
-    title: "MK2i Heated Build Platform (PCB Heatbed)"
+    title: "MK2i Heated Build Platform"
     author: Terawatt Industries
     license: GPLv2
     tags: [3d printer,heatbed,pcb heated,heated build platform,heated bed,pcb heated,pcb build platform]
@@ -21,7 +21,7 @@ githubiverse:
 
     ## The names of directories where any images, source and stl files associated with the project can be found.
     img_dir: img
-    stl_dir:
+    # stl_dir: stl
     src_dir: src
 
     ## The headline image
