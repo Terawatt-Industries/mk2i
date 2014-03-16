@@ -2,6 +2,7 @@
 This repository contains the PCB design files for the MK2i PCB Heated Build Platform for 3D Printers.
 
 ##Features
+
 The MK2i heated is a hybrid of the open-source MK2a and MK3 PCB heated.  Revisions and features in this variant include:
 ----
 * Large pads for soldering power wires.
