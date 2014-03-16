@@ -1,0 +1,110 @@
+body {
+	color: #fefefe;
+	background: #272727; /* Old browsers */
+	background: -moz-linear-gradient(left,  #343434 0%, #272727 15%, #272727 85%, #343434 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#343434), color-stop(15%,#272727), color-stop(85%,#272727), color-stop(100%,#343434)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #343434 0%,#272727 15%,#272727 85%,#343434 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #e3edf9 0%,#343434 15%,#272727 85%,#343434 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #e3edf9 0%,#343434 15%,#272727 85%,#343434 100%); /* IE10+ */
+	background: linear-gradient(to right,  #e3edf9 0%,#343434 15%,#272727 85%,#343434 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#343434', endColorstr='#343434',GradientType=1 ); /* IE6-9 */
+}
+
+a {
+	color: #00a5d5;
+}
+
+a:hover {
+	color: #ffee00;
+}
+
+.bg_container {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: transparent url("../../img/terawatt/tw_logo_watermark_1035x1035.png");
+	background-repeat:no-repeat;
+	-webkit-background-origin:content-box; /* Safari */
+	background-origin:content-box;
+	background-position:  470px 370px;
+}
+
+#tags a:hover {
+	text-decoration: none;
+}
+
+#tags a:hover .label, #tags a:hover .badge {
+  	background-color: #00a5d5;
+}
+
+header h1 {
+	height : 45px;
+	overflow: hidden;
+	margin: 0;
+	padding: 20px 0 0 0;
+}
+
+header h1 a {
+	background: transparent url("../../img/terawatt/tw_logo_fc_150x91.png");
+	background-repeat:no-repeat;
+	background-position: 0 -11px;
+	color: #ffffff;
+	padding: 13px 0 7px 162px;
+}
+
+header hr {
+  margin: 3px 0 7px 3px;
+}
+
+#stlviewer {
+	width: 100%;
+	min-height: 300px;
+	border: 1px solid #00a5d5;
+	margin-bottom: 10px;
+}
+
+.imgfile {
+	width: 100px;
+}
+
+#description {
+	padding: 5px;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #00a5d5;	
+}
+
+.meta {
+	padding-top: 7px;
+	border-bottom: 1px dashed #00a5d5;	
+}
+
+#sources-section {
+	max-height: 800px;
+	overflow: auto;
+}
+
+#stls-section {
+	max-height: 800px;
+	overflow: auto;
+}
+
+#lead-image-container {
+	margin: 5px;
+}
+
+body .nav > li > a:hover {
+  text-decoration: none;
+  background-color: #00a5d5;
+}
+
+body #sourcedownloads a.btn, 
+	body #sourcedownloads a.btn:hover,
+	body #stldownloads a.btn, 
+	body #stldownloads a.btn:hover {
+  background-color: #efefef;
+}
+
+body #sourcedownloads a.btn:hover,
+	body #stldownloads a.btn:hover {
+	color: #00a5d5;
+}
