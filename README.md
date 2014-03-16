@@ -3,7 +3,6 @@ This repository contains the PCB design files for the MK2i PCB Heated Build Plat
 
 ##Features
 The MK2i PCB heated build platform is a hybrid of the open-source MK2a and MK3 PCB heatbed.  Revisions and features in the MK2i design include:
-----
 * Large pads for soldering power wires (from MK2a).
 * Pads for SMD or through-hole thermistor on top and bottom.  PCB trace on top layer for wiring soldered thermistor.  Still has thermistor center-hole.  Use with many types of thermistor and no more taping thermistor to PCB!
 * 4-point and 3-point mounting for PCB to platform.
