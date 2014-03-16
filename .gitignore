@@ -1,2 +1,12 @@
 .DS_Store
 **/.DS_Store
+*.dri
+*.XLN
+*.GTO
+*.GBO
+*.GBS
+*.GTP
+*.GTS
+*.gpi
+*.zip
+mk2i.TXT
